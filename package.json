@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "This is a sample webdriverio framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "author": "Subrato Sarkar",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/local-runner": "^6.1.6",
+    "@wdio/mocha-framework": "^6.1.6",
+    "@wdio/spec-reporter": "^6.1.5",
+    "@wdio/sync": "^6.1.5",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^81.0.0",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^6.0.2",
+    "webdriverio": "^6.1.5"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.1.5"
+  }
+}
